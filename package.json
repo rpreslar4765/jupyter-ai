@@ -42,8 +42,8 @@
     "test": "lerna run test"
   },
   "devDependencies": {
-    "lerna": "^6.4.1",
-    "nx": "^15.9.2"
+    "lerna": "^7.0.0",
+    "nx": "^19.0.8"
   },
   "resolutions": {
     "@jupyterlab/completer": "^4.2.0"

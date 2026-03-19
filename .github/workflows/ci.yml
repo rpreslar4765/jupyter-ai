@@ -33,7 +33,16 @@ jobs:
 
     - name: Run Tests
       run: |
-        pytest
+        # Exit code 5 means "no tests collected" — treat as success for meta-packages.
+        set +e
+        pytest --tb=short -q
+        pytest_exit=$?
+        set -e
+        if [ "${pytest_exit}" -eq 5 ]; then
+          echo "No tests collected (meta-package — expected)."
+        elif [ "${pytest_exit}" -ne 0 ]; then
+          exit "${pytest_exit}"
+        fi
 
   lint:
     runs-on: ubuntu-latest

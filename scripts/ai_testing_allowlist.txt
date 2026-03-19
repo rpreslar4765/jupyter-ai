@@ -17,3 +17,8 @@
 # Add your repositories below, one per line, e.g.:
 # rpreslar4765/jupyter-ai
 rpreslar4765/jupyter-ai
+rpreslar4765/Pawnpay
+rpreslar4765/pps-sync
+rpreslar4765/pawnpay-ai-sync
+rpreslar4765/gemini-cli
+rpreslar4765/PyPy-3.7

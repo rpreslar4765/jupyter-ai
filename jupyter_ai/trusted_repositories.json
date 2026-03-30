@@ -1,0 +1,58 @@
+{
+  "description": "Configuration file for trusted Jupyter AI repositories",
+  "version": "1.0.0",
+  "trusted_repositories": [
+    {
+      "name": "jupyterlab_chat",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyterlab-chat",
+      "pypi_url": "https://pypi.org/project/jupyterlab-chat/",
+      "description": "Chat interface for JupyterLab"
+    },
+    {
+      "name": "jupyter_server_documents",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-server-documents",
+      "pypi_url": "https://pypi.org/project/jupyter-server-documents/",
+      "description": "Server side document handling"
+    },
+    {
+      "name": "jupyter_ai_router",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-router",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-router/",
+      "description": "Core routing layer for Jupyter AI"
+    },
+    {
+      "name": "jupyter_ai_persona_manager",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-persona-manager",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-persona-manager/",
+      "description": "Core manager & registry for AI personas"
+    },
+    {
+      "name": "jupyter_ai_litellm",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-litellm",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-litellm/",
+      "description": "LiteLLM based model abstraction"
+    },
+    {
+      "name": "jupyter_ai_magic_commands",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-magic-commands",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-magic-commands/",
+      "description": "Jupyter AI magic commands"
+    },
+    {
+      "name": "jupyter_ai_chat_commands",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-chat-commands",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-chat-commands/",
+      "description": "Default set of chat commands"
+    },
+    {
+      "name": "jupyter_ai_jupyternaut",
+      "github_url": "https://github.com/jupyter-ai-contrib/jupyter-ai-jupyternaut",
+      "pypi_url": "https://pypi.org/project/jupyter-ai-jupyternaut/",
+      "description": "Default AI persona (Jupyternaut)"
+    }
+  ],
+  "trusted_url_patterns": [
+    "^https://github\\.com/jupyter-ai-contrib/",
+    "^https://github\\.com/jupyterlab/jupyter-ai"
+  ]
+}

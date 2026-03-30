@@ -54,6 +54,9 @@ test = [
   "mypy",
 ]
 
+[project.scripts]
+jupyter-ai-check-security = "jupyter_ai.repository_validator:check_installation_security"
+
 [project.urls]
 Documentation = "https://jupyter-ai.readthedocs.io/en/v3/"
 Source = "https://github.com/jupyterlab/jupyter-ai"

@@ -180,6 +180,31 @@ this should be installed and activated when you install the `jupyter_ai` package
 For help with installing and using Jupyter AI, please see our
 [user documentation on ReadTheDocs](https://jupyter-ai.readthedocs.io/en/latest/users/index.html).
 
+## Security
+
+Jupyter AI v3 includes built-in validation to ensure all dependencies are from legitimate sources in the [jupyter-ai-contrib](https://github.com/jupyter-ai-contrib) organization. This protects against dependency confusion attacks and typosquatting.
+
+To verify your installation:
+
+```python
+from jupyter_ai.repository_validator import check_installation_security
+check_installation_security()
+```
+
+Or use the command-line tool:
+
+```bash
+jupyter-ai-check-security
+```
+
+Or run the script directly:
+
+```bash
+python scripts/check-installation-security.py
+```
+
+For more information about repository security and validation, see our [security documentation](https://jupyter-ai.readthedocs.io/en/latest/developers/repository_security.html).
+
 ## Contributing
 
 If you would like to contribute to Jupyter AI, see our

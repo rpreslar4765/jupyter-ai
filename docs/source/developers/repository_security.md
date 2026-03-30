@@ -47,7 +47,23 @@ The validation system checks:
 
 ### Checking Installation Security
 
-To verify your Jupyter AI installation is secure:
+To verify your Jupyter AI installation is secure, you have multiple options:
+
+#### Command-line tool (recommended)
+
+```bash
+jupyter-ai-check-security
+```
+
+This will display a detailed report of all installed dependencies and their validation status.
+
+#### Python script
+
+```bash
+python scripts/check-installation-security.py
+```
+
+#### Python API
 
 ```python
 from jupyter_ai.repository_validator import check_installation_security

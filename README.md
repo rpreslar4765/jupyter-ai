@@ -191,6 +191,18 @@ from jupyter_ai.repository_validator import check_installation_security
 check_installation_security()
 ```
 
+Or use the command-line tool:
+
+```bash
+jupyter-ai-check-security
+```
+
+Or run the script directly:
+
+```bash
+python scripts/check-installation-security.py
+```
+
 For more information about repository security and validation, see our [security documentation](https://jupyter-ai.readthedocs.io/en/latest/developers/repository_security.html).
 
 ## Contributing
